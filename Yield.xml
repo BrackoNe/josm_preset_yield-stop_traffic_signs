@@ -18,6 +18,7 @@
 			<list_entry value="RS:II-44" icon="josm_preset_yield-stop_traffic_signs-master/icons/regulatory/RS_II-44.png"/>
 			<list_entry value="RS:II-44.1" icon="josm_preset_yield-stop_traffic_signs-master/icons/regulatory/RS_II-44.1.png"/>
 			<list_entry value="RS:II-44.2" icon="josm_preset_yield-stop_traffic_signs-master/icons/regulatory/RS_II-44.2.png"/>
+			<list_entry value="RS:II-45.2" icon="josm_preset_yield-stop_traffic_signs-master/icons/regulatory/RS_II-45.2.png"/>
 			</combo>
 		<space />
 		<combo key="side" text="Side of the way" values="right,left,both,up,down" default="right"  />
@@ -31,8 +32,6 @@
 	<item name="Yield (Backward)" icon="josm_preset_yield-stop_traffic_signs-master/icons/regulatory/RS_II-1.png" type="node">
 		<label text="Yield in backward direction" icon="josm_preset_yield-stop_traffic_signs-master/icons/regulatory/RS_II-1.png"/>
 		<space/>
-		<label text="Note: Do not forget to turn on direction tag at 2-way road!"/>
-		<space/>
 		<key key="traffic_sign:backward" value="RS:II-1"/>
 		<key key="highway" value="give_way"/>
 		<check text="Is direction tag necessary?" key="direction" value_on="backward" disable_off="true" default="on"/>
@@ -44,6 +43,7 @@
 			<list_entry value="RS:II-44" icon="josm_preset_yield-stop_traffic_signs-master/icons/regulatory/RS_II-44.png"/>
 			<list_entry value="RS:II-44.1" icon="josm_preset_yield-stop_traffic_signs-master/icons/regulatory/RS_II-44.1.png"/>
 			<list_entry value="RS:II-44.2" icon="josm_preset_yield-stop_traffic_signs-master/icons/regulatory/RS_II-44.2.png"/>
+			<list_entry value="RS:II-45.2" icon="josm_preset_yield-stop_traffic_signs-master/icons/regulatory/RS_II-45.2.png"/>
 			</combo>
 		<space />
 		<combo key="side" text="Side of the way" values="right,left,both,up,down" default="right"  />
@@ -70,6 +70,7 @@
 			<list_entry value="RS:II-44" icon="josm_preset_yield-stop_traffic_signs-master/icons/regulatory/RS_II-44.png"/>
 			<list_entry value="RS:II-44.1" icon="josm_preset_yield-stop_traffic_signs-master/icons/regulatory/RS_II-44.1.png"/>
 			<list_entry value="RS:II-44.2" icon="josm_preset_yield-stop_traffic_signs-master/icons/regulatory/RS_II-44.2.png"/>
+			<list_entry value="RS:II-45.2" icon="josm_preset_yield-stop_traffic_signs-master/icons/regulatory/RS_II-45.2.png"/>
 			</combo>
 		<space />
 		<combo key="side" text="Side of the way" values="right,left,both,up,down" default="right"  />
@@ -83,8 +84,6 @@
 	<item name="Stop (Backward)" icon="josm_preset_yield-stop_traffic_signs-master/icons/regulatory/RS_II-2.png" type="node">
 		<label text="Stop in backward direction" icon="josm_preset_yield-stop_traffic_signs-master/icons/regulatory/RS_II-2.png"/>
 		<space/>
-		<label text="Note: Do not forget to turn on direction tag at 2-way road!"/>
-		<space/>
 		<key key="traffic_sign:backward" value="RS:II-2"/>
 		<key key="highway" value="stop"/>
 		<check text="Is direction tag necessary?" key="direction" value_on="backward" disable_off="true" default="on"/>
@@ -96,6 +95,7 @@
 			<list_entry value="RS:II-44" icon="josm_preset_yield-stop_traffic_signs-master/icons/regulatory/RS_II-44.png"/>
 			<list_entry value="RS:II-44.1" icon="josm_preset_yield-stop_traffic_signs-master/icons/regulatory/RS_II-44.1.png"/>
 			<list_entry value="RS:II-44.2" icon="josm_preset_yield-stop_traffic_signs-master/icons/regulatory/RS_II-44.2.png"/>
+			<list_entry value="RS:II-45.2" icon="josm_preset_yield-stop_traffic_signs-master/icons/regulatory/RS_II-45.2.png"/>
 			</combo>
 		<space />
 		<combo key="side" text="Side of the way" values="right,left,both,up,down" default="right"  />
