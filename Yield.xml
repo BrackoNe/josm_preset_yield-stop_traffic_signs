@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0" author="BrackoNe" shortdescription="Yield / Stop and Directionality" description="Yield / Stop traffic sign and additional traffic sign which shows you a possible directions in Serbia." sr-latin.description="Ukrštanje sa putem sa prvenstvnom prolaza / znak stop i dodatni saobraćajni znakovi koji pokazuju moguće smerove." version="3.2020-08-13" baselanguage="en">
+<presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0" author="BrackoNe" shortdescription="Yield / Stop and Directionality" description="Yield / Stop traffic sign and additional traffic sign which shows you a possible directions in Serbia." sr-latin.description="Ukrštanje sa putem sa prvenstvnom prolaza / znak stop i dodatni saobraćajni znakovi koji pokazuju moguće smerove." version="4.2021-04-09" baselanguage="en">
 
 <group name="Yield / Stop Traffic Sign" sr-latin.text="Ukrštanje sa putem sa prvenstvnom prolaza / znak stop" icon="josm_preset_yield-stop_traffic_signs-master/icons/icon.png">
 	<item name="Yield (Forward)" sr-latin.text="Ukrštanje sa putem sa prvenstvnom prolaza (unapred)" icon="josm_preset_yield-stop_traffic_signs-master/icons/regulatory/RS_II-1.png" type="node">
@@ -12,13 +12,13 @@
 		<check text="Is direction tag necessary?" sr-latin.text="Da li je potrebna oznaka za smer?" key="direction" value_on="forward" disable_off="true"/>
 		<item_separator />
 		<combo key="traffic_sign:2:forward" text="Direction" sr-latin.text="Smer" default="RS:II-43.1">
-			<list_entry value="RS:II-43" icon="josm_preset_yield-stop_traffic_signs-master/icons/regulatory/RS_II-43.png"/>
-			<list_entry value="RS:II-43.1" icon="josm_preset_yield-stop_traffic_signs-master/icons/regulatory/RS_II-43.1.png"/>
-			<list_entry value="RS:II-43.2" icon="josm_preset_yield-stop_traffic_signs-master/icons/regulatory/RS_II-43.2.png"/>
-			<list_entry value="RS:II-44" icon="josm_preset_yield-stop_traffic_signs-master/icons/regulatory/RS_II-44.png"/>
-			<list_entry value="RS:II-44.1" icon="josm_preset_yield-stop_traffic_signs-master/icons/regulatory/RS_II-44.1.png"/>
-			<list_entry value="RS:II-44.2" icon="josm_preset_yield-stop_traffic_signs-master/icons/regulatory/RS_II-44.2.png"/>
-			<list_entry value="RS:II-45.2" icon="josm_preset_yield-stop_traffic_signs-master/icons/regulatory/RS_II-45.2.png"/>
+			<list_entry value="RS:II-43" short_description="Ahead Only" sr-latin.short_description="Obavezan smer pravo" icon="josm_preset_yield-stop_traffic_signs-master/icons/regulatory/RS_II-43.png"/>
+			<list_entry value="RS:II-43.1" short_description="Right Only" sr-latin.short_description="Obavezan smer desno" icon="josm_preset_yield-stop_traffic_signs-master/icons/regulatory/RS_II-43.1.png"/>
+			<list_entry value="RS:II-43.2" short_description="Left Only" sr-latin.short_description="Obavezan smer levo" icon="josm_preset_yield-stop_traffic_signs-master/icons/regulatory/RS_II-43.2.png"/>
+			<list_entry value="RS:II-44" short_description="Go Straight or Left" sr-latin.short_description="Dozvoljeni smerovi pravo i levo" icon="josm_preset_yield-stop_traffic_signs-master/icons/regulatory/RS_II-44.png"/>
+			<list_entry value="RS:II-44.1" short_description="Go Straight or Right" sr-latin.short_description="Dozvoljeni smerovi pravo i desno" icon="josm_preset_yield-stop_traffic_signs-master/icons/regulatory/RS_II-44.1.png"/>
+			<list_entry value="RS:II-44.2" short_description="Go Left or Right" sr-latin.short_description="Dozvoljeni smerovi levo i desno" icon="josm_preset_yield-stop_traffic_signs-master/icons/regulatory/RS_II-44.2.png"/>
+			<list_entry value="RS:II-45.2" short_description="Roundabout" sr-latin.short_description="Kružni tok saobraćaja" icon="josm_preset_yield-stop_traffic_signs-master/icons/regulatory/RS_II-45.2.png"/>
 			</combo>
 		<space />
 		<combo key="side" text="Side of the way" sr-latin.text="Strana sa koje je znak" values="right,left,both,up,down" sr-latin.values="desno,levo,obe,iznad,ispod" default="right"/>
@@ -37,13 +37,13 @@
 		<check text="Is direction tag necessary?" sr-latin.text="Da li je potrebna oznaka za smer?" key="direction" value_on="backward" disable_off="true" default="on"/>
 		<item_separator />
 		<combo key="traffic_sign:2:backward" text="Direction" sr-latin.text="Smer" default="RS:II-43.1">
-			<list_entry value="RS:II-43" icon="josm_preset_yield-stop_traffic_signs-master/icons/regulatory/RS_II-43.png"/>
-			<list_entry value="RS:II-43.1" icon="josm_preset_yield-stop_traffic_signs-master/icons/regulatory/RS_II-43.1.png"/>
-			<list_entry value="RS:II-43.2" icon="josm_preset_yield-stop_traffic_signs-master/icons/regulatory/RS_II-43.2.png"/>
-			<list_entry value="RS:II-44" icon="josm_preset_yield-stop_traffic_signs-master/icons/regulatory/RS_II-44.png"/>
-			<list_entry value="RS:II-44.1" icon="josm_preset_yield-stop_traffic_signs-master/icons/regulatory/RS_II-44.1.png"/>
-			<list_entry value="RS:II-44.2" icon="josm_preset_yield-stop_traffic_signs-master/icons/regulatory/RS_II-44.2.png"/>
-			<list_entry value="RS:II-45.2" icon="josm_preset_yield-stop_traffic_signs-master/icons/regulatory/RS_II-45.2.png"/>
+			<list_entry value="RS:II-43" short_description="Ahead Only" sr-latin.short_description="Obavezan smer pravo" icon="josm_preset_yield-stop_traffic_signs-master/icons/regulatory/RS_II-43.png"/>
+			<list_entry value="RS:II-43.1" short_description="Right Only" sr-latin.short_description="Obavezan smer desno" icon="josm_preset_yield-stop_traffic_signs-master/icons/regulatory/RS_II-43.1.png"/>
+			<list_entry value="RS:II-43.2" short_description="Left Only" sr-latin.short_description="Obavezan smer levo" icon="josm_preset_yield-stop_traffic_signs-master/icons/regulatory/RS_II-43.2.png"/>
+			<list_entry value="RS:II-44" short_description="Go Straight or Left" sr-latin.short_description="Dozvoljeni smerovi pravo i levo" icon="josm_preset_yield-stop_traffic_signs-master/icons/regulatory/RS_II-44.png"/>
+			<list_entry value="RS:II-44.1" short_description="Go Straight or Right" sr-latin.short_description="Dozvoljeni smerovi pravo i desno" icon="josm_preset_yield-stop_traffic_signs-master/icons/regulatory/RS_II-44.1.png"/>
+			<list_entry value="RS:II-44.2" short_description="Go Left or Right" sr-latin.short_description="Dozvoljeni smerovi levo i desno" icon="josm_preset_yield-stop_traffic_signs-master/icons/regulatory/RS_II-44.2.png"/>
+			<list_entry value="RS:II-45.2" short_description="Roundabout" sr-latin.short_description="Kružni tok saobraćaja" icon="josm_preset_yield-stop_traffic_signs-master/icons/regulatory/RS_II-45.2.png"/>
 			</combo>
 		<space />
 		<combo key="side" text="Side of the way" sr-latin.text="Strana sa koje je znak" values="right,left,both,up,down" sr-latin.values="desno,levo,obe,iznad,ispod" default="right"/>
@@ -64,13 +64,13 @@
 		<check text="Is direction tag necessary?" sr-latin.text="Da li je potrebna oznaka za smer?" key="direction" value_on="forward" disable_off="true"/>
 		<item_separator />
 		<combo key="traffic_sign:2:forward" text="Direction" sr-latin.text="Smer" default="RS:II-43.1">
-			<list_entry value="RS:II-43" icon="josm_preset_yield-stop_traffic_signs-master/icons/regulatory/RS_II-43.png"/>
-			<list_entry value="RS:II-43.1" icon="josm_preset_yield-stop_traffic_signs-master/icons/regulatory/RS_II-43.1.png"/>
-			<list_entry value="RS:II-43.2" icon="josm_preset_yield-stop_traffic_signs-master/icons/regulatory/RS_II-43.2.png"/>
-			<list_entry value="RS:II-44" icon="josm_preset_yield-stop_traffic_signs-master/icons/regulatory/RS_II-44.png"/>
-			<list_entry value="RS:II-44.1" icon="josm_preset_yield-stop_traffic_signs-master/icons/regulatory/RS_II-44.1.png"/>
-			<list_entry value="RS:II-44.2" icon="josm_preset_yield-stop_traffic_signs-master/icons/regulatory/RS_II-44.2.png"/>
-			<list_entry value="RS:II-45.2" icon="josm_preset_yield-stop_traffic_signs-master/icons/regulatory/RS_II-45.2.png"/>
+			<list_entry value="RS:II-43" short_description="Ahead Only" sr-latin.short_description="Obavezan smer pravo" icon="josm_preset_yield-stop_traffic_signs-master/icons/regulatory/RS_II-43.png"/>
+			<list_entry value="RS:II-43.1" short_description="Right Only" sr-latin.short_description="Obavezan smer desno" icon="josm_preset_yield-stop_traffic_signs-master/icons/regulatory/RS_II-43.1.png"/>
+			<list_entry value="RS:II-43.2" short_description="Left Only" sr-latin.short_description="Obavezan smer levo" icon="josm_preset_yield-stop_traffic_signs-master/icons/regulatory/RS_II-43.2.png"/>
+			<list_entry value="RS:II-44" short_description="Go Straight or Left" sr-latin.short_description="Dozvoljeni smerovi pravo i levo" icon="josm_preset_yield-stop_traffic_signs-master/icons/regulatory/RS_II-44.png"/>
+			<list_entry value="RS:II-44.1" short_description="Go Straight or Right" sr-latin.short_description="Dozvoljeni smerovi pravo i desno" icon="josm_preset_yield-stop_traffic_signs-master/icons/regulatory/RS_II-44.1.png"/>
+			<list_entry value="RS:II-44.2" short_description="Go Left or Right" sr-latin.short_description="Dozvoljeni smerovi levo i desno" icon="josm_preset_yield-stop_traffic_signs-master/icons/regulatory/RS_II-44.2.png"/>
+			<list_entry value="RS:II-45.2" short_description="Roundabout" sr-latin.short_description="Kružni tok saobraćaja" icon="josm_preset_yield-stop_traffic_signs-master/icons/regulatory/RS_II-45.2.png"/>
 			</combo>
 		<space />
 		<combo key="side" text="Side of the way" sr-latin.text="Strana sa koje je znak" values="right,left,both,up,down" sr-latin.values="desno,levo,obe,iznad,ispod" default="right"/>
@@ -89,13 +89,13 @@
 		<check text="Is direction tag necessary?" key="direction" sr-latin.text="Da li je potrebna oznaka za smer?" value_on="backward" disable_off="true" default="on"/>
 		<item_separator />
 		<combo key="traffic_sign:2:backward" text="Direction" sr-latin.text="Smer" default="RS:II-43.1">
-			<list_entry value="RS:II-43" icon="josm_preset_yield-stop_traffic_signs-master/icons/regulatory/RS_II-43.png"/>
-			<list_entry value="RS:II-43.1" icon="josm_preset_yield-stop_traffic_signs-master/icons/regulatory/RS_II-43.1.png"/>
-			<list_entry value="RS:II-43.2" icon="josm_preset_yield-stop_traffic_signs-master/icons/regulatory/RS_II-43.2.png"/>
-			<list_entry value="RS:II-44" icon="josm_preset_yield-stop_traffic_signs-master/icons/regulatory/RS_II-44.png"/>
-			<list_entry value="RS:II-44.1" icon="josm_preset_yield-stop_traffic_signs-master/icons/regulatory/RS_II-44.1.png"/>
-			<list_entry value="RS:II-44.2" icon="josm_preset_yield-stop_traffic_signs-master/icons/regulatory/RS_II-44.2.png"/>
-			<list_entry value="RS:II-45.2" icon="josm_preset_yield-stop_traffic_signs-master/icons/regulatory/RS_II-45.2.png"/>
+			<list_entry value="RS:II-43" short_description="Ahead Only" sr-latin.short_description="Obavezan smer pravo" icon="josm_preset_yield-stop_traffic_signs-master/icons/regulatory/RS_II-43.png"/>
+			<list_entry value="RS:II-43.1" short_description="Right Only" sr-latin.short_description="Obavezan smer desno" icon="josm_preset_yield-stop_traffic_signs-master/icons/regulatory/RS_II-43.1.png"/>
+			<list_entry value="RS:II-43.2" short_description="Left Only" sr-latin.short_description="Obavezan smer levo" icon="josm_preset_yield-stop_traffic_signs-master/icons/regulatory/RS_II-43.2.png"/>
+			<list_entry value="RS:II-44" short_description="Go Straight or Left" sr-latin.short_description="Dozvoljeni smerovi pravo i levo" icon="josm_preset_yield-stop_traffic_signs-master/icons/regulatory/RS_II-44.png"/>
+			<list_entry value="RS:II-44.1" short_description="Go Straight or Right" sr-latin.short_description="Dozvoljeni smerovi pravo i desno" icon="josm_preset_yield-stop_traffic_signs-master/icons/regulatory/RS_II-44.1.png"/>
+			<list_entry value="RS:II-44.2" short_description="Go Left or Right" sr-latin.short_description="Dozvoljeni smerovi levo i desno" icon="josm_preset_yield-stop_traffic_signs-master/icons/regulatory/RS_II-44.2.png"/>
+			<list_entry value="RS:II-45.2" short_description="Roundabout" sr-latin.short_description="Kružni tok saobraćaja" icon="josm_preset_yield-stop_traffic_signs-master/icons/regulatory/RS_II-45.2.png"/>
 			</combo>
 		<space />
 		<combo key="side" text="Side of the way" sr-latin.text="Strana sa koje je znak" values="right,left,both,up,down" sr-latin.values="desno,levo,obe,iznad,ispod" default="right"/>
